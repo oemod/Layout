@@ -1,0 +1,374 @@
+ul{
+	margin: 0;
+	padding: 0;
+}
+#detail-pc{
+	.main{
+		max-width: 1024px;
+		margin: 0px auto;
+		position: relative;
+		nav#breadcumds{
+			font-size: 13px;
+			padding: 5px 0px;
+			margin: 0px;
+			ul{
+				white-space: nowrap;
+				padding-left: 10px;
+				margin: 5px;
+				li{
+					line-height: 20px;
+					margin: 0px;
+					list-style: none;
+					display: inline-block;
+    				white-space: nowrap;
+    				padding-left: 12px;
+    				font-size: 14px;
+    				i{
+    					margin-right: 5px;
+    					padding-bottom: 5px;
+    					font-size: 10px;
+    					color:#007326;
+    				}
+    				a{
+    					color:#007236;
+    					text-decoration: none;
+    				}
+				}
+				li:first-child{
+					padding-left: 0;
+					i{
+						font-size: 20px;
+					}
+				}
+			}
+		}
+		aside#side_bar{
+			width: 25%;
+    		float: left;
+    		margin: 0;
+   			 padding: 0;
+    		margin-left: 1%;
+    		clear: both;
+    		.chuyenkhoa{
+    			span{
+    				background:url('../images/detail/dangkykham2.png') no-repeat top center, 
+    				url('../images/detail/bg_top_menuleft.png') no-repeat bottom center;
+    				text-align:center; 
+    				display:block;
+    				text-transform:uppercase;
+    				font-size:18px;
+    				font-weight:800;
+    				color:#fff;
+    				padding:13px 0 40px 0;
+    				margin-bottom:-20px;
+    			}
+    		}
+    		.category-list{
+    			margin: 0;
+    			padding: 0;
+    			> ul{
+    				width: 100%;
+    				max-width: 234px;
+    				margin: 0 auto;
+    				background: url('../images/detail/bg_right_menuleft.png') repeat-y right center;
+    				overflow: hidden;
+    				padding: 0;
+    				li{
+    					line-height: 20px;
+    					margin: 0;
+    					padding: 0;
+    					list-style: none;
+    				}		
+    			}
+    			ul >li{
+    				margin-bottom: 10px;
+    				li{
+    					width: 88%;
+    					overflow: hidden;
+    					margin: 0 auto;
+    					padding: 0;
+    					border-bottom: 1px #ababab dashed;
+    					min-height: 30px;
+    					line-height: 30px;
+    					padding: 5px 0;
+    					a{
+    						background: url(../images/detail/icon2_menuleft.png) no-repeat 10px center;
+    						white-space: nowrap;
+    						padding: 5px 5px 5px 25px;
+    						color: #000000;
+    						text-decoration: none;
+    					}
+    					a:hover{
+    						margin-left: 10px;
+    						color: #007236;
+    					}
+    				}
+    			}
+    			.category-title{
+    				background:url('../images/detail/line_bottom.png') repeat center center;
+    				font-size:15px;
+    				margin:0;
+    				text-align:center;
+    				line-height:25px;
+    				width:100%;
+    				max-width:234px;
+    				margin:0 auto;
+    				text-transform:uppercase;
+    				display:block;
+    				border:1px #e9e9e9 solid;
+    				> span{
+    					clear:both;
+    					position:relative;
+    					display:block;
+    					padding:10px 10px 10px 45px;
+    					text-align:left;
+    					color:#101010;
+    					background:url('../images/detail/icon_active_menuleft.png') no-repeat 10px center;
+    				}
+    				>span:hover{
+    					color: #007236;
+    					cursor: pointer;
+    				}
+    			}
+				.list{
+					margin:0;
+					padding:10px 0;
+				}
+    		}
+    		.datlich{
+    			width:100%;overflow:hidden;
+    			text-align:center;
+    			color:#fff;
+    			a{
+    				width:100%;
+    				background:url('../images/detail/dangkykham2.png') no-repeat center center;
+    				padding:20px 56px;
+    				color:#fff;
+    				text-transform:uppercase;
+    				display:table-cell;
+    				vertical-align:middle;
+    				text-decoration: none;
+    			}
+    		}
+    		.tuvan_left{
+    			width:100%;
+    			margin-bottom:20px;
+    			text-align:center;
+    		}
+		}
+		article#div-article{
+			width: 71%;
+			float: right;
+			margin-right: 1%;
+			padding: 0;
+			margin: 0;
+			background: #FFF;
+			border: 1px #e9e9e9 solid;
+			color: #000;
+			.blog-share-title{
+				margin: 0;
+				background: rgba(0,0,0,0);
+				padding: 1%;
+				.article_title{
+					float: left;
+					padding: 0;
+					margin: 0;
+					width: 100%;
+					h1{
+						font-size: 24px;
+						color: #007236;
+						text-transform: uppercase;
+						line-height: 30px;
+						padding: 5px 12px;
+						font-weight: 700;
+					}
+				}
+				.article_time{
+					float: left;
+					width: 100%;
+					padding: 5px 15px;
+					color: #b8b8b8;
+					.time-post{
+						padding: 0 7px;
+						border-right: 1px solid;
+						margin-right: 10px;
+						font-size: 13px;
+					}
+					.member{
+						padding-left: 5px;
+    					font-size: 13px;
+					}
+				}
+			}
+			.content_article{
+				margin-top: 10px;
+				border-top: 1px #ddd solid;
+				padding: 6px 2%;
+				background: #fff;
+				overflow: hidden;
+				text-align: justify;
+				ul{
+					list-style: none;
+				}
+				h2{
+					font-size: 22px;
+					color: #007236;
+					padding: 10px 0;
+				}
+				h3{
+					font-size: 20px;
+					color: #007236;
+					padding: 10px 0;
+				}
+				h4{
+					font-size: 18px;
+					color: #007236;
+					padding: 10px 0;
+				}
+				p,div{
+					font-size: 16px;
+				}
+			}
+		}
+		article#related-news{
+			width: 71%;
+			float: right;
+			margin-top: 20px;
+			h3.title-lienquan{
+				max-width: 100%;
+				margin: 0;
+				padding: 0;
+				min-height: 25px;
+				line-height: 25px;
+				font-size: 18px;
+				color: rgba(96, 96, 96, 1);
+				text-transform: uppercase;
+				font-weight: 800;
+				text-align: left;
+				display: block;
+				border-bottom: 3px #007236 solid;
+				margin-bottom: 20px;
+				padding: 5px 5px 5px 35px;
+				background: url(../images/detail/icon_baivietlienquan.jpg) no-repeat 2px center;
+			}
+			ul.blog-related{
+				width: 100%;
+				margin: 0 auto;
+				overflow: hidden;
+				li{
+					text-align: center;
+					float: left;
+					display: inline-block;
+					width: 48%;
+					margin: 0 1%;
+					min-height: 110px;
+					vertical-align: top;
+					.pic{
+						float: left;
+						margin: 4px 15px 15px 0;
+					}
+					h4{
+						max-height: 40px;
+						overflow: hidden;
+						margin: 0 auto;
+						font-weight: 700;
+						line-height: 20px;
+						text-align: left;
+						font-size: 14px;
+						a{
+							color: #007236;
+						}
+					}
+					.desc{
+						text-align: left;
+						font-size: 14px;
+						line-height: 18px;
+						padding: 5px 0 20px;
+					}
+				}
+			}
+		}
+		article#div-search{
+			width: 71%;
+			float: right;
+			margin-right: 1%;
+			padding: 0;
+			margin: 0;
+			background: #FFF;
+			border: 1px #e9e9e9 solid;
+			color: #000;
+			.categories_desc{
+				background: #f6f6f6;
+				border: 1px solid #e9e9e9;
+				box-shadow: 0 0 2px #c0c0c0;
+				margin: 0px;
+				padding: 20px;
+				.h1pt{
+					clear: both;
+					margin: 0 5px;
+					padding: 5px 0 10px;
+					h1{
+						font-weight: 600;
+						float: left;
+						display: block;
+						font-size: 20px;
+						line-height: 23px;
+						color: #007236;
+						text-transform: uppercase;
+						margin-bottom: 5px;
+					}
+				}
+			}
+			.article-blog{
+				border: 1px #e9e9e9 solid;
+				padding: 0;
+				clear: both;
+				min-height: 190px;
+				margin-bottom: 25px;
+				padding: 15px;
+				.article_img{
+					img{
+						margin: 1px;
+						width: 210px;
+						height: 160px;
+						text-align: center;
+						box-shadow: 0 0 2px #c0c0c0;
+						padding: 2px;
+						float: left;
+					}
+				}
+				.title{
+					width: 64%;
+					margin-left: 1%;
+					float: right;
+					padding: 0;
+					h2{
+						text-align: left;
+						text-transform: none;
+						font-size: 16px;
+						padding: 0;
+						margin: 0;
+						margin-left: 2%;
+						line-height: 23px;
+						width: 96%;
+						font-weight: 600;
+						a{
+							color: #007236;
+							text-decoration: none;
+						}
+						a:hover{
+							color: #be7e33;
+						}
+					}
+				}
+				.details{
+					float: right;
+					width: 63%;
+					margin: 0;
+					margin-left: 1%;
+					padding-top: 20px;
+				}
+			}
+		}
+	}
+}
